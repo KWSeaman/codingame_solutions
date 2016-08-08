@@ -1,1 +1,1 @@
-# Solutions to Codinggames Problems
+# Solutions to CodinGame Problems
