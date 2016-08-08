@@ -14,13 +14,13 @@ loop do
     if $Dist2Gap<0
         puts 'SLOW'
     elsif $Dist2Gap <$S
-        puts "JUMP"
+        puts 'JUMP'
     elsif $S < $G+1
-        puts "SPEED"
+        puts 'SPEED'
     elsif $S > $G+1
-        puts "SLOW"
+        puts 'SLOW'
     else
-        puts "WAIT"
+        puts 'WAIT'
     end
     # Write an action using puts
     # To debug: STDERR.puts "Debug messages..."
