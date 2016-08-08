@@ -12,7 +12,7 @@ loop do
     $X = gets.to_i # the position on the road of the motorbike.
     $Dist2Gap = $R-$X
     if $Dist2Gap<0
-        puts "SLOW"
+        puts 'SLOW'
     elsif $Dist2Gap <$S
         puts "JUMP"
     elsif $S < $G+1
