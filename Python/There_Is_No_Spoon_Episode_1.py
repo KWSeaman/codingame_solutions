@@ -26,13 +26,13 @@ for i in range(height):
                 rightx = lines[i][j+1:].find('0')+j+1
                 righty = i
             #look down
-            leftx = -1
-            lefty = -1
+            downx = -1
+            downy = -1
             for l in range(i+1,height):
                 if lines[l][j] == '0':
-                    leftx = j
-                    lefty = l
+                    downx = j
+                    downy = l
                     break
-            print(j,i,rightx,righty,leftx,lefty,' ')
+            print(j, i, rightx, righty, downx, downy, ' ')
 
 # Three coordinates: a node, its right neighbor, its bottom neighbor
